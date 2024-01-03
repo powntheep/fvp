@@ -49,9 +49,9 @@ flutter:
         sharedDarwinSource: true
       linux:
         pluginClass: FvpPlugin
-      macos:
-        pluginClass: FvpPlugin
-        sharedDarwinSource: true
+      # macos:
+      #   pluginClass: FvpPlugin
+      #   sharedDarwinSource: true
       windows:
         pluginClass: FvpPluginCApi
 
